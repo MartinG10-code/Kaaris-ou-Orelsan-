@@ -66,7 +66,7 @@ function checkAnswer(choice) {
   }
 
   // Nouvelle phrase après 2 secondes
-  setTimeout(newQuote, 2000);
+  setTimeout(newQuote, 1000);
 }
 
 document.getElementById('kaaris').addEventListener('click', () => checkAnswer("Kaaris"));
